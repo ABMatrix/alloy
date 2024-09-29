@@ -5,7 +5,7 @@
 )]
 #![cfg_attr(not(test), warn(unused_crate_dependencies))]
 #![cfg_attr(docsrs, feature(doc_cfg, doc_auto_cfg))]
-
+#![feature(arc_unwrap_or_clone)]
 /// Type alias for a [`RootProvider`] using the [`Http`] transport and a
 /// reqwest client.
 ///
